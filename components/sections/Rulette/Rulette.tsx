@@ -118,7 +118,7 @@ const Roulette = () => {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center  text-white  py-10 px-0">
+    <section className="flex flex-col items-center justify-center  text-white py-0 px-0">
       <div className="relative w-full max-w-[1280px]  overflow-hidden   rounded-xl ">
         <div className=" absolute right-0 top-0 h-full w-full bg-black/50 z-30" />
         <div className="pointer-events-none absolute left-0 top-0 h-[120%] w-[100px] bg-gradient-to-r from-black to-transparent z-20" />
