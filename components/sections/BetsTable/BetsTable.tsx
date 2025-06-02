@@ -37,7 +37,7 @@ const BetsCard: FC<IBetsCard> = ({ title, description, bets, betType }) => (
         )}
       ></div>
     </header>
-    <div className="total flex justify-between items-center w-full text-white/80 font-semibold">
+    <div className="total flex justify-between items-center px-3 w-full text-white/80 font-semibold">
       <div className="title">
         {bets.length} {"Bets total"}
       </div>
